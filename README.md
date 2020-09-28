@@ -1,2 +1,2 @@
-#MyApp
+#MyTestApp
 This is my app
