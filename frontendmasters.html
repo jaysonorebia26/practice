@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hover-example {
+            background-color: limegreen;
+            color: white;
+            height: 100px;
+            width: 100px;
+        }
+        .hover-example:hover {
+            background-color: crimson;
+            height: 150px;
+            width: 150px;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .ex-box {
+            border: 3px solid #aaa;
+            background-color: #eee;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            margin-right: 10px;
+            border-radius: 5px;
+            font-size: 30px;
+        }
+        .ex-box:last-of-type {
+            clear: right;
+        }
+        
+        .box-1 {
+            width: 300px;
+            height: 150px;
+            background-color: blue;
+            color: white;
+            border: 1px solid black; 
+        }
+        .box-2 {
+            width: 300px;
+            height: 100px;
+            background-color: red;
+            color: white;
+            border: 1px solid black; 
+        }
+        .box-3 {
+            width: 100px;
+            height: 200px;
+            background-color: green;
+            color: white;
+            border: 1px solid black; 
+        }
+
+        /* .floated .box {
+            float: left;       
+        } */
+
+        .flex-container {
+            display: flex;
+            width: 100%;
+            border: 1px solid black;
+            flex-wrap: wrap;
+        }
+        .ai-fe {
+            align-items: stretch;
+            height: 200px;
+        }
+        .no-height {
+            height: inherit;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="hover-example">Hover your mouse over me</div><br>
+    <!-- <br><br>
+    <div class="second-part">
+        <div class="ex-box">Box 1</div>
+        <div class="ex-box">Box 2</div><br>
+    </div> 
+
+    <div class="floated">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+    </div> -->
+
+    <div class="flex-container ai-fe">
+        <div class="box box-1 no-height">1</div>
+        <div class="box box-2 no-height">2</div>
+        <div class="box box-3 no-height">3</div>
+    </div>
+</body>
+</html>
+
