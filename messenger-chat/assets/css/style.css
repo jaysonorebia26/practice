@@ -1,0 +1,120 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.container {
+	color: white;
+	background-color: black;
+	border-radius: 20px;
+}
+
+hr {
+	border: 1px solid dimgrey;
+}
+
+header{
+	padding: 5px;
+}
+
+header .avatar {
+	height: 80px;
+}
+
+main {
+	padding: 0 20px 20px 20px;
+}
+
+header {
+	text-align: center;
+}
+
+header .avatar,
+header .info,
+.left .avatar,
+.left .message-body,
+.right .message-body,
+.message {
+	display: inline-block;
+}
+
+.message-body {
+	width: 80%;
+	margin-top: 20px;
+}
+
+header .avatar,
+header .info {
+	vertical-align: middle;
+}
+
+.info h3 {
+	color: grey;
+}
+
+.left .avatar {
+	vertical-align: bottom;
+}
+
+header .info {
+	text-align: left;
+}
+
+img.steve {
+	border-radius: 100%;
+	border: 1px solid dimgrey;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.left .message, 
+.right .message {
+	min-width: 80px;
+	min-height: 40px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+.left .message {
+	background-color: dimgrey;
+}
+
+.right .message {
+	background-color: deepskyblue;
+	text-align: left;
+}
+
+.timestamp {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+.keyboard {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.keyboard input {
+	width: 100%;
+	border-radius: 10px;
+	margin-top: 25px;
+	height:30px;
+	padding: 3px;
+	background-color: dimgrey;
+	color: white;
+}
